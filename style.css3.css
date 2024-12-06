@@ -1,0 +1,229 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #4CAF50;
+    color: white;
+}
+
+.nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav .btn {
+    background: white;
+    color: #4CAF50;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Services Section */
+.services {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f4f4f4;
+}
+
+.services h1 {
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-item img {
+    width: 350px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.service-content {
+    text-align: left;
+}
+
+.service-content h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service-content ul {
+    margin: 10px 0;
+    padding-left: 20px;
+    list-style: disc;
+}
+
+.service-content .btn {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* ---------------footer------------- */
+/* Base styles for desktop */
+.footer-content {
+    width: 1439px;
+    height: 344px;
+    background-color: #002A96;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 50px;
+    padding: 10px;
+  }
+  
+  .widget1,
+  .widget2,
+  .widget3,
+  .widget4 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .widgetcontent1 {
+    width: 327px;
+    height: 59px;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.51px;
+    color: #FFFFFF;
+  }
+  
+  .widgetparah1 {
+    width: 357px;
+    height: 29px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    color: #FFFFFF;
+  }
+  
+  .widgetcontent2 {
+    width: 188px;
+    height: 39px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.01px;
+    color: #FFFFFF;
+  }
+  
+  .widgetparah2,
+  .paragraph2 {
+    width: 231px;
+    height: 29px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    color: #FFFFFF;
+  }
+  
+  .widgetcontent3 {
+    width: 198px;
+    height: 39px;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.01px;
+    color: #FFFFFF;
+  }
+  
+  .widget3parah {
+    width: 241px;
+    height: 40px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    color: #FFFFFF;
+  }
+  
+  .name {
+    width: 62px;
+    height: 24px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.38px;
+    color: #FFFFFF;
+  }
+  
+  .inputfooter {
+    width: 222px;
+    height: 36px;
+    background-color: #FFFFFF;
+  }
+  
+  .quicklinks {
+    width: 206px;
+    height: 39px;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.01px;
+    color: #FFFFFF;
+  }
+  
+  .links1,
+  .links2,
+  .links3,
+  .links4 {
+    width: 100%;
+    height: 24px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.38px;
+    color: #FFFFFF;
+  }
+  
+  .links1 {
+    margin-bottom: 5px;
+  }
+  
+  .links2,
+  .links3,
+  .links4 {
+    margin-bottom: 5px;
+  }
+  
+  .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
